@@ -604,9 +604,15 @@ public class Tester {
 			expected = new Scanner(expectedFile);
 			actual = new Scanner(actualFile);
 			
+			String expectedLine, actualLine;
+			
 			while(expected.hasNextLine() && actual.hasNextLine())
+				
 			{
-				assertTrue(expected.nextLine().equals(actual.nextLine()));
+				expectedLine = expected.nextLine();
+				actualLine = actual.nextLine();
+				
+				assertTrue("expected: " + expectedLine + "| acutal: " + actualLine, expectedLine.equals(actualLine));
 			}
 			
 			if(expected.hasNextLine())
