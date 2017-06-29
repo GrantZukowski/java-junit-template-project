@@ -1,6 +1,9 @@
 [![Build Status](https://travis-ci.org/mplacona/java-junit-template-project.png?branch=master)](https://travis-ci.org/mplacona/java-junit-template-project)
 
-Sample project for testing Travis CI on our gazillion songs project
+Sample project that uses Travis CI on our gazillion songs project
+
+# We used this projet as a starting point for doing a sorting and searching project
+Clone this repo, then fill in the classes and run the unit tests until they all pass. When a unit test fails, the file it creates will not be deleted, so in some cases, you may need to delete output files.
 
 # Java + Junit + Ant Template Project
 ----------
